@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.gadaga.official">
+    <!-- 퍼미션 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".GadagaApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 런처 -->
+        <activity android:name=".ui.launcher.LauncherActivity">
+
+        </activity>
+        <!-- 온보딩 -->
+        <activity android:name=".ui.onboarding.OnboardingActivity" />
+        <!-- 메인 -->
+        <activity android:name=".ui.MainActivity">
+
+        </activity>
+        <!-- 회원가입/로그인 -->
+        <activity android:name=".ui.sign.SignActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- remove google app indexing warning -->
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="yk7szpbi88" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="2261e27c2b6fba611c463fec89c3a836"/>
+    </application>
+
+</manifest>

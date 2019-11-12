@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012177134446",
+    "firebase_url": "https://gadaga-official.firebaseio.com",
+    "project_id": "gadaga-official",
+    "storage_bucket": "gadaga-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012177134446:android:93a4c12e06d3534e69977f",
+        "android_client_info": {
+          "package_name": "kr.co.gadaga.official"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012177134446-nnmapj47dhecl3iilj1qi198nl6n3ecu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.co.gadaga.official",
+            "certificate_hash": "b5e3c97374310447ed852da35dc973d2130a4ef2"
+          }
+        },
+        {
+          "client_id": "1012177134446-t8mtogv8kt331tllj2vn5k6ulpub6ohc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9dvZHegxUkKf07G8dXKkPIDBPrCQnYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012177134446-t8mtogv8kt331tllj2vn5k6ulpub6ohc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

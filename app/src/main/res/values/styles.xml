@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- 메인 -->
+    <!-- 위젯: 진행상태뷰 -->
+    <style name="Widget.Gadaga.ProgressView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">32dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+
+</resources>

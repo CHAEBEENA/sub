@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">가다가</string>
+
+    <!-- 마이페이지 -->
+    <string name="my">마이페이지</string>
+    <string name="email">이메일</string>
+    <string name="number">전화번호</string>
+    <string name="change_password">비밀번호 변경</string>
+    <string name="change_address">집 주소 변경</string>
+    <string name="manage_cards">결제 카드 관리</string>
+    <string name="logout">로그아웃</string>
+    <string name="leave">회원탈퇴</string>
+    
+    <!-- 회원 탈퇴 -->
+    <string name="notice">유의사항</string>
+    <string name="notice_content">가다가 회원 탈퇴 시 가다가 서비스에 탈퇴되며, 다른 제휴서비스(사장님사이트)는 이용이 가능합니다.\n\n탈퇴한 계정의 가다가 이용 기록은 모두 삭제되며, 삭제한 데이터는 복구가 불가합니다. 단, 탈퇴 전에 작성한 게시물(댓글 포함)은 삭제되지 않습니다.\n\n•삭제되는 이용기록\n이메일, 아이디, 비밀번호, 휴대폰 번호, 주문 이력, 찜한 가게,집 주소, 포인트, 쿠폰, 결제 카드 정보</string>
+    <string name="agree_to_leave">네, 계정을 삭제하겠습니다</string>
+    <string name="leaving">회원 탈퇴하기</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="nhn_oauth_client_id">2BxjbTjGqEaXvjTRkWNh</string>
+    <string name="nhn_oauth_client_secret">YMWjYNyT8i</string>
+    <string name="nhn_oauth_client_name">Gadaga</string>
+
+    <!-- 공지 사항 -->
+    <string name="announcement_date">2019.11.1: %s</string>
+    <string name="faq_when_and_where_title" translation_description="Header label for when and where is Google I/O 2019">When and where is Google I/O 2019?</string>
+    <string name="faq_when_and_where_description" translation_description="Information on when and where is Google I/O 2019 in FAQ"><![CDATA[The 2019 developer festival will be held from May 7 – 9 at Shoreline Amphitheatre in Mountain View, California.]]></string>
+
+
+    <!-- 찜한매장 -->
+    <string name="favorites_login_required_msg">찜한 매장은\n로그인이 필요한 서비스입니다.</string>
+    <string name="favorites_no_store">아직 찜한 매장이 없습니다.</string>
+    <string name="favorites_no_store_description">매장을 둘러보고\n마음에 드는 곳을 찜해보세요.</string>
+
+
+
+    <string name="notice_title" translaion_description="Header">가다가 서비스 성공적으로 런칭!</string>
+    <string name="notice_description" translaion_description="Description">오랫동안 기다려주셔서 감사합니다!\n(주)가다가에서 출시한 \"배달만큼 편한 테이크아웃\"\n가다가 어플이 성공적으로 출시되었습니다.\n\n폭등하는 소비자 물가와, 해가 지날수록 비싸지는\n배달료에 스트레스 많으셨죠?\n이제는 가다가로 조금 더 편리하게,\n저렴하게 테이크아웃 해보세요!\n\n집에 \'가다가,\' 혹은 회사에 \'가다가,\'\n언제 어디서든 가다가를 편리하게 이용해보세요!</string>
+</resources>
